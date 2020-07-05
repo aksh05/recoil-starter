@@ -1,0 +1,16 @@
+{
+    "presets": [
+        "@babel/react",
+        [
+            "@babel/env",{
+                "targets": "> 0.25%, not dead",
+                "modules": false
+            }
+        ]
+    ],
+
+    "plugins": [
+        "transform-object-rest-spread"
+    ]
+
+}
